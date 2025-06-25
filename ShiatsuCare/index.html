@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ShiatsuCare</title>
+        <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+    <nav>
+      <div class="header-row">
+        <!-- logo -->
+        <img src="resources/images/shiatsucare_logo.png" alt="logo" class="logo-white">
+
+        <!-- 主导航 -->
+        <ul class="main-nav">
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#features">ABOUT US</a></li>
+          <li><a href="#meals">SERVICES</a></li>
+          <li><a href="#plans">PRICES</a></li>
+          <li><a href="#galary">Gallery</a></li>
+          <li><a href="#plans">LOCATION</a></li>
+        </ul>
+
+        <!-- 社交图标 -->
+        <div class="social-icons">
+          <a href="https://www.instagram.com/youraccount" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="https://www.facebook.com/youraccount" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+            <a href="https://www.tiktok.com/@youraccount" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+
+            <!-- <a href="https://www.xiaohongshu.com/user/profile/youraccount" target="_blank" aria-label="小红书">
+                
+                <img src="resources/css/img/xiaohongshu.png" alt="小红书" style="width:22px; height:22px;">
+            </a> -->
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="header-text">
+                <p class="tagline">Beyond Relaxation. Real Relief.</p>
+                <a class="btn btn-full js--scroll-to-plans" href="#">Book </a>
+                <a class="btn btn-border js--scroll-to-features" href="#">Know More</a>
+    </div>
+        
+    </header>
+        <!--对用about us，id是features，内容改为店内介绍-->
+        <!--js滚动，记得修改script.js-->
+<section class="section-features js--section-features" id="features">
+  <div class="row">
+    <h2>About Us</h2>
+    <p class="about-intro">
+      At Shiatsu Care, we've spent over 15 years helping people relieve pain, reduce stress, and regain mobility through focused deep-tissue bodywork. Unlike general massage studios, we specialize in authentic Shiatsu acupressure, reflexology, and cupping therapy to target the root causes of discomfort—not just the symptoms.
+    </p>
+
+    <div class="features-grid">
+      <div class="feature-box">
+        <img src="resources/css/img/icon1.png" alt="Deep Tissue" class="feature-icon">
+        <h3>Body Acupressure</h3>
+        <p>We go beyond Swedish-style surface massage. Our intensive Shiatsu approach reaches deep muscle layers to release chronic tension and improve posture.</p>
+      </div>
+      <div class="feature-box">
+        <img src="resources/css/img/icon2.png" alt="Reflexology" class="feature-icon">
+        <h3>Foot Reflexology</h3>
+        <p>Our foot massage goes beyond simple rubbing. By stimulating key reflex zones, it helps restore balance, reduce fatigue, and revitalize your entire system.</p>
+      </div>
+      <div class="feature-box">
+        <img src="resources/css/img/icon3.png" alt="Experienced Team" class="feature-icon">
+        <h3>Cupping</h3>
+        <p>More than just relaxation — our cupping therapy uses targeted suction to stimulate circulation, detoxify the body, and release deep-seated tension.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!--对应services部分，id是meals，修改为图片与文字介绍结合-->
+        <section class="section-messages" id="meals">
+            <div class="row">
+                <h2>Our services</h2>
+            </div>
+
+            <div class="message-row">
+                <div class="message-image">
+                    <img src="resources/images/body.jpg" alt="Herbal Massage">
+                </div>
+
+                <div class="message-text">
+                    <h3>Body Acupressure</h3>
+                    <p>
+                        Traditional oriental massage technique that uses thumbs, fingers, and hands to apply pressure.
+                    </p>
+                    <ul>
+                        <li>Relieves muscle tension</li>
+                        <li>Eases soreness and stiffness</li>
+                        <li>Boosts energy flow</li>
+                        <li>Calms the mind</li>
+                    </ul>
+                    <p>No oils. No needles. Just healing touches.</p>
+                </div>
+            </div>
+
+
+            <div class="message-row">
+                <div class="message-text">
+                    <h3>foot reflexology</h3>
+                    <p> A complementary therapy that involves applying pressure to specific points on the feet,known as reflex zones, which correspond to different systems in the body.</p>
+                    <ul>
+                        <li>Reduces stress and promotes relaxation</li>
+                        <li>Relieves soreness and tension</li>
+                        <li>Improves circulation</li>
+                        <li>Enhances Sleep Quality</li>
+                    </ul>
+                </div>
+                <div class="message-image">
+                    <img src="resources/images/foot_reflex.jpg" alt="Swedish Massage">
+                </div>
+
+            </div>
+
+            <div class="message-row">
+                <div class="message-image">
+                    <img src="resources/images/cupping.jpg" alt="Deep Tissue Massage">
+                </div>
+                <div class="message-text">
+                    <h3>cupping therapy</h3>
+                    <p>A method where special cups are placed on your skin and pulled to create a suction. This suction gently pulls the softtissue layers to improve blood flow and promotes relaxation.</p>
+                    <ul>
+                        <li>Increase circulation</li>
+                        <li>Relax muscles</li>
+                        <li>Relieves muscle tension and soreness</li>
+                        <li>Reduce stress and anxiety</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- <section class="section-cities" id="cities">
+            <div class="row">
+                <h2>Our services</h2>
+            </div>
+            <div class="row js--wp-3">
+                <div class="col span-1-of-3 box">
+                    <img src="resources/images/deeptissue.jpg" alt="Lisbon">
+                    <h3>deep tissue massage</h3>
+                    <div class="city-features">
+                      <i class="ion-ios-time-outline"></i>
+                      1h & 1h30min 
+                    </div>
+                    <div class="city-features">
+                      <i class="ion-cash"></i>
+                      2200-3480 
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-3 box">
+                    <img src="resources/images/oilmassage.jpg" alt="San Francisco">
+                    <h3>oil<br>massage</h3>
+                    <div class="city-features">
+                      <i class="ion-ios-time-outline"></i>
+                      1h & 1h30min 
+                    </div>
+                    <div class="city-features">
+                      <i class="ion-cash"></i>
+                      1500&2490  
+                    </div>
+                     <div class="city-features">
+                      <i class="ion-social-twitter icon-small"></i>
+                      <a href="#">@omnifood_sf</a> 
+                    </div> -->
+                    
+                <!-- </div>
+                <div class="col span-1-of-3 box">
+                    <img src="resources/images/swedishmassage.jpg" alt="Berlin">
+                    <h3>Swedish Massage</h3>
+                    <div class="city-features">
+                      <i class="ion-ios-time-outline"></i>
+                      1h & 1h30min 
+                    </div>
+                    <div class="city-features">
+                      <i class="ion-cash"></i>
+                      1800 & 2697
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section> --> 
+        <section class="section-testimonials">
+            <div class="row">
+                <h2>Our true customer reviews on Google</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+What an amazing experience at Shiatsu care. From the moment I arrived, the environment was peaceful and welcoming. The therapist was incredibly skilled, attentive, and in tune with what my body needed. I left feeling completely relaxed, refreshed, and with noticeably less tension in my muscles. Every movement felt intentional and therapeutic. This was one of the best bodywork sessions I’ve had—highly recommended.
+                        <cite><img src="resources/images/customer-11.png">Amy</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                       <blockquote>
+                        I had a massage here, it’s really nice place, and masseuse work really hard with full dedication.
+I came in with a lot of stiffness and feeling much relieved and good after the massage, booked for 45 and ended up extending to hour that is how good it was.
+                        <cite><img src="resources/images/customer-21.jpg">Maun Patel</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                     <blockquote>
+                        The best and relaxing massage ever I am chronic pain I bean going for reg massage past 2 years and nothing is helping. But since I found out this place I bean going ones in 2 weeks and half since I bean going here I noticed my pain less better sleep less pain better energy 😌 ✨️ so I really recommend this place who ever is suffering from bad chronic pain. To me really helps alot I love it 😀 I am more fresh less pain. When I go there is one lady who does it for me I love the way she does it and she has magic hands ✋️ that she took my pain off. Love it. Definitely will be going back actually I am going in today.
+                        <cite><img src="resources/images/customer-31.jpg">Valentina Djerlek</cite>
+                    </blockquote>
+                </div>
+            </div>    
+        </section>
+        <section class="section-plans js--section-plans" id="plans">
+            <div class="row">
+                <h2>PRICES</h2>
+            </div>
+            <div class="row">
+                <!-- Body Acupressure -->
+                <div class="col span-1-of-4">
+                    <div class="plan-box">
+                        <h3>Body Acupressure</h3>
+                        <ul class="price-list">
+                            <li>Quick fix 15 min. <span class="price">$25</span></li>
+                            <li>Quick fix 20 min. <span class="price">$30</span></li>
+                            <li>Deep 30 min. <span class="price">$45</span></li>
+                            <li>Deep 45 min. <span class="price">$65</span></li>
+                            <li>Deep 60 min. <span class="price">$90</span></li>
+                            <li>Deep 75 min. <span class="price">$110</span></li>
+                        </ul>
+                        <div>
+                            <a href="#" class="btn btn-full">Call to Book</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foot Reflexology -->
+                <div class="col span-1-of-4">
+                    <div class="plan-box">
+                        <h3>Foot Reflexology</h3>
+                        <ul>
+                            <li>Feet 30 min. <span class="price">$45</span></li>
+                            <li>Feet 45 min. <span class="price">$65</span></li>
+                            <li>Feet 60 min. <span class="price">$90</span></li>
+                        </ul>
+                        <div>
+                            <a href="#" class="btn btn-full">Call to Book</a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <!-- Cupping Therapy -->
+                <div class="col span-1-of-4">
+                    <div class="plan-box">
+                        <h3>Cupping Therapy</h3>
+                        <ul>
+                            <li>Cup 35 min. <span class="price">$45</span></li>
+                            <li>Cup 50 min. <span class="price">$65</span></li>
+                            <li>Cup 65 min. <span class="price">$85</span></li>
+                            <li>Cup 80 min. <span class="price">$110</span></li>
+                        </ul>
+                        <div>
+                            <a href="#" class="btn btn-full">Call to Book</a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <!-- Combo -->
+                <div class="col span-1-of-4">
+                    <div class="plan-box">
+                        <h3>Combo</h3>
+                        <ul>
+                            <li>60 min. Body & Feet<span class="price">$90</span></li>
+                            <li>75 min. Body & Feet<span class="price">$110</span></li>
+                            <li>90 min. Body & Feet<span class="price">$130</span></li>
+                            <li>80 min. Body + Feet + Cup<span class="price">$110</span></li>
+                            <li>95 min. Body + Feet + Cup<span class="price">$130</span></li>
+                            <li>110 min. Body + Feet + Cup<span class="price">$150</span></li>
+                        </ul>
+                        <div>
+                            <a href="#" class="btn btn-full">Call to Book</a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="telephone">
+<div class="call-to-book">
+  <p class="subPoint">Call US to Book your SPA Treatment!</p>
+  <p class="headerOne">519-966-8881</p>
+
+  <!-- 椭圆层 1 -->
+  <img src="https://orientalfr.com/wp-content/uploads/2021/05/Ellipse-5-3.png"
+       alt="" class="bg-ellipse ellipse1">
+
+  <!-- 椭圆层 2 -->
+  <img src="https://orientalfr.com/wp-content/uploads/2021/05/Ellipse-5-3.png"
+       alt="" class="bg-ellipse ellipse2">
+
+  <!-- 椭圆层 3 -->
+  <img src="https://orientalfr.com/wp-content/uploads/2021/05/Ellipse-5-3.png"
+       alt="" class="bg-ellipse ellipse3">
+
+  <!-- 椭圆层 4 -->
+  <img src="https://orientalfr.com/wp-content/uploads/2021/05/Ellipse-5-3.png"
+       alt="" class="bg-ellipse ellipse4">
+</div>
+
+
+
+    </section>
+        <!-- <section class="section-forms">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form action="#" method="post" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable for="name">Name</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable for="email">Email</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                        <label>How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us">
+                                <option value="frnds">Friends</option>
+                                <option value="news">Newsletter</option>
+                                <option value="se">Search Engine</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="newsletter"checked> Yes,Please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lablel>Drop us a line</lablel>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="feedback" placeholder="Your Feedback"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label></label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" name="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section> -->
+        <section>
+<div class="slideshow-container">
+    <!-- Slides -->
+    <div class="mySlides">
+        <img src="resources/images/img-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="resources/images/img-2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <img src="resources/images/img-3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <img src="resources/images/img-4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <img src="resources/images/img-5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <img src="resources/images/img-6.jpg" style="width:100%">
+    </div>
+
+    <!-- Navigation dots -->
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+
+<script>
+    // JavaScript for image slideshow
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds (2000 milliseconds)
+    }
+</script>
+        </section>
+
+       <footer><div class="container">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="vendor/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+    </body>
+
+<section class="section-contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-row">
+    <div class="contact-info">
+      <h3>Tecumseh Mall Windsor </h3>
+      <h3>(Next to Food Court)</h3>
+      <p>7654 Tecumseh Rd E, Windsor, ON N8T 1E9</p>
+      <p>Phone: (519) 251-8181</p>
+      <p>Email: shiatsucare8181@gmail.com</p>
+    </div>
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.2573023956775!2d-82.93889292407137!3d42.31571047119702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2ac200a8ed95%3A0x1c5b92022d7a8783!2sShiatsu%20Care%20Inc.!5e0!3m2!1sen!2sca!4v1749586101217!5m2!1sen!2sca"
+         style="width: 100%; height: 400px; border:0;">
+        </iframe>
+    </div>
+  </div>
+
+  <div class="contact-row">
+    <div class="contact-info">
+      <h3>Devonshire Mall Windsor</h3>
+      <h3>(Next to Cineplex)</h3>
+      <p>3100 Howard Ave #1007, Windsor, ON N8X 3Y8</p>
+      <p>Phone: (519) 966-8881</p>
+      <p>Email: shiatsucare8181@gmail.com</p>
+    </div>
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5904.392376656873!2d-83.00307692407364!3d42.27433527120097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2da23c38caf3%3A0x8c54f1f93eaaded2!2sShiatsu%20Care%20Inc.!5e0!3m2!1sen!2sca!4v1749585488965!5m2!1sen!2sca"
+         style="width: 100%; height: 400px; border:0;">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+<!-- <div class="row js--wp-1">
+    <div class="col span-1-of-4 box">
+        <i class="ion-ios-infinite icon-big"></i>
+        <h3>Up to 365 days/year</h3>
+        <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+    </div>
+     <div class="col span-1-of-4 box">
+         <i class="ion-android-alarm-clock icon-big"></i>
+        <h3>Ready in 20 minutes</h3>
+        <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+    </div>
+     <div class="col span-1-of-4 box">
+         <i class="ion-ios-nutrition icon-big"></i>
+        <h3>100% organic</h3>
+        <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+    </div>
+     <div class="col span-1-of-4 box">
+         <i class="ion-ios-cart icon-big"></i>
+        <h3>Order anything</h3>
+        <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+    </div>
+</div> -->
+
+<!-- <footer>
+    <div class="col span-1-of-2">
+        <ul class="footer-navs">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">ios App</a></li>
+            <li><a href="#">Android App</a></li>
+        </ul>
+    </div>
+    <div class="col span-1-of-2">
+        <ul class="social-navs">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <p>copyright &copy;omnifood-2023, All rights reserved!!</p>
+    </div>
+</footer> -->
+
+<!-- <section class="section-works" id="works">
+    <div class="row">
+        <h2>How it works - Simple as 1, 2, 3</h2>
+    </div>
+    <div class="row">
+        <div class="col span-1-of-2 step-box">
+            <img src="resources/images/app-iPhone.png" alt="iPhone Image" class="phone-img js--wp-2">
+        </div>
+        <div class="col span-1-of-2 step-box">
+            <div class="work-steps">
+                <div>1</div>
+                <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+            </div>
+            <div class="work-steps">
+                <div>2</div>
+                <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+            </div>
+            <div class="work-steps">
+                <div>3</div>
+                <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+            </div>
+            <a class="app-img" href="#"><img src="resources/images/app-store-img.jpg" alt="App Store"> </a>
+            <a class="app-img" href="#"><img src="resources/images/download-app-android.png" alt="Play Store"> </a>
+        </div>
+    </div>
+</section> -->
+
+
